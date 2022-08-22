@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap");
+
+* {
+  max-width: 100%;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
+.subtitle {
+  font-family: "Bebas Neue", cursive !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+}
+
+.title h2 {
+  font-weight: 900;
+  font-size: 158px;
+}
+
+.title h1 {
+  font-weight: 900;
+  font-size: 195px;
+}

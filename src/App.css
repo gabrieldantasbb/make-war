@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Lato";
+}
+
+.content {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 0;
+}
+
+.w-100 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.header,
+.main,
+.section {
+  height: 100vh;
+}
+
+.main {
+  background-image: url(./images/bg-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section {
+  background-image: url(./images/bg-inscricoes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-image: url(./images/bg-header-new.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scroll {
+font-weight: 900;
+font-size: 24px;
+line-height: 89.2%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.title h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 89.2%;
+}
+
+.title small {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 89.2%;
+  color: #505050;
+}
+
+.text p {
+font-weight: 500;
+font-size: 24px;
+line-height: 89.2%;
+text-align: justify;
+}
+
+.content-main{
+  display: flex;
+}
