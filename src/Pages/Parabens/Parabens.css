@@ -5,17 +5,17 @@
   font-family: "Lato";
 }
 
-.main {
+.main-prb {
   height: 100vh;
 }
 
-.main {
-  background-image: url(./images/bg-inscricoes.png);
+.main-prb {
+  background-image: url(../../images/bg-inscricoes.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.content {
+.content-prb {
   width: 1200px;
   max-width: 100%;
   height: 100%;
@@ -27,11 +27,11 @@
   justify-content: space-between;
 }
 
-.title {
+.title-prb {
   max-width: 600px;
   text-align: center;
 }
-.title h1 {
+.title-prb h1 {
   font-weight: 900;
   font-size: 43px;
   line-height: 89.2%;
@@ -39,7 +39,7 @@
   padding-top: 10rem;
 }
 
-.title h2 {
+.title-prb h2 {
   font-weight: 900;
   font-size: 58px;
   line-height: 89.2%;
@@ -47,7 +47,7 @@
   padding-top: 1rem;
 }
 
-.title h3 {
+.title-prb h3 {
   font-size: 24px;
   padding-top: 2rem;
 }
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 764px) {
-  .title h1 {
+  .title-prb h1 {
     font-weight: 900;
     font-size: 10vw;
     line-height: 89.2%;
@@ -69,7 +69,7 @@
     padding-top: 10rem;
   }
 
-  .title h2 {
+  .title-prb h2 {
     font-weight: 900;
     font-size: 13vw;
     line-height: 89.2%;
